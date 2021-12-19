@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            rateme
+        </title>
+        <link rel="stylesheet" href="../css/style.css">
+
+	<script src="../js/script1.js">
+	window.onload=screen;
+	</script>
+	<link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Alex+Brush&family=Cookie&family=Playball&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<header class="Rate" >
+		
+
+		<ul class="Navigation" id="navig">
+			<li class="inner">
+				<a href="index.html"id="change" onmouseover="changecolour()" onmouseout="samecolour()"><strong> Home </strong></a>
+
+			</li>
+			<li class="inner">
+				<a href="Aboutme.html"id="change" onmouseover="changecolour()" onmouseout="samecolour()"><strong> About </strong></a>
+
+			</li>
+			<li class="inner">
+				<a href="interests.html"id="change" onmouseover="changecolour()" onmouseout="samecolour()"><strong> Interests </strong></a>
+			</li>
+			<li class="inner">
+				<a class="active" href="rate.html"id="change" onmouseover="changecolour()" onmouseout="samecolour()"><strong> Ratings </strong> </a>
+
+			</li>
+			<li class="inner">
+				<a href="contact.html"id="change" onmouseover="changecolour()" onmouseout="samecolour()"><strong> Ping Me! </strong></a>
+
+			</li>
+		</ul>
+		<div align="center" style="color:rgb(45 132 191);padding-top:3%;font-size:50px;font-family:'Playball',cursive ;">
+
+<br>			Fill in what you think my skills are!</div>
+			
+                              <div class="Form"> 
+				<form>
+					<table class="fff">
+						<thead>
+							<th>E-mail</th>
+							<th>Name</th>
+							<th>Skills</th>
+							<th>Level of Proficiency</th>
+
+						</thead>
+						<tr>
+							<td><input type="email" id="Email" name="Email"/></td><br>
+							<td><input type="text" id="name" name="name"/></td><br>
+							<td><input type="text" id="skills" name="skills"></td><br>
+							<td><select id="level">
+								
+								<option>Select:</option>
+								<option>Proficient</option>
+								<option>Intermediate</option>
+								<option>Beginner</option>
+								<option>Untrained</option>
+							    	
+							</select></td>
+						</tr>
+					</table>
+			
+                                <br><br><br>
+				<input type="button" value="submit" id="button" onclick="Form()"/>
+
+					<input type="reset" value="reset" id="button">
+				
+
+				</form>
+			</div>
+			<div id="Print"></div>
+			
+			
+	</header>
+
+
+    </body>
+</html>
